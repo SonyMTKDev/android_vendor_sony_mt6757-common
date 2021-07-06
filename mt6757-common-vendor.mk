@@ -88,9 +88,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mt6757-common/proprietary/lib/libaal.so:system/lib/libaal.so \
     vendor/sony/mt6757-common/proprietary/lib/libaal_cust.so:system/lib/libaal_cust.so \
     vendor/sony/mt6757-common/proprietary/lib/libaalservice.so:system/lib/libaalservice.so \
-    vendor/sony/mt6757-common/proprietary/lib/libaaudio.so:system/lib/libaaudio.so \
-    vendor/sony/mt6757-common/proprietary/lib/libaaudioservice.so:system/lib/libaaudioservice.so \
     vendor/sony/mt6757-common/proprietary/lib/libaed.so:system/lib/libaed.so \
+    vendor/sony/mt6757-common/proprietary/lib/libandroid_net.so:system/lib/libandroid_net.so \
     vendor/sony/mt6757-common/proprietary/lib/libatciserv_jni.so:system/lib/libatciserv_jni.so \
     vendor/sony/mt6757-common/proprietary/lib/libaudio_param_parser-sys.so:system/lib/libaudio_param_parser-sys.so \
     vendor/sony/mt6757-common/proprietary/lib/libblas.so:system/lib/libblas.so \
@@ -103,6 +102,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mt6757-common/proprietary/lib/libdevice_security_client.so:system/lib/libdevice_security_client.so \
     vendor/sony/mt6757-common/proprietary/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
     vendor/sony/mt6757-common/proprietary/lib/libdrmmtkwhitelist.so:system/lib/libdrmmtkwhitelist.so \
+    vendor/sony/mt6757-common/proprietary/lib/libem_audio_jni.so:system/lib/libem_audio_jni.so \
+    vendor/sony/mt6757-common/proprietary/lib/libem_bt_jni.so:system/lib/libem_bt_jni.so \
+    vendor/sony/mt6757-common/proprietary/lib/libem_lte_jni.so:system/lib/libem_lte_jni.so \
+    vendor/sony/mt6757-common/proprietary/lib/libem_sensor_jni.so:system/lib/libem_sensor_jni.so \
+    vendor/sony/mt6757-common/proprietary/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
+    vendor/sony/mt6757-common/proprietary/lib/libem_usb_jni.so:system/lib/libem_usb_jni.so \
+    vendor/sony/mt6757-common/proprietary/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
     vendor/sony/mt6757-common/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
     vendor/sony/mt6757-common/proprietary/lib/libfpc_oem.so:system/lib/libfpc_oem.so \
     vendor/sony/mt6757-common/proprietary/lib/libfpspolicy_fw.so:system/lib/libfpspolicy_fw.so \
@@ -123,6 +129,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mt6757-common/proprietary/lib/libpq_cust.so:system/lib/libpq_cust.so \
     vendor/sony/mt6757-common/proprietary/lib/libprogrambinary.so:system/lib/libprogrambinary.so \
     vendor/sony/mt6757-common/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
+    vendor/sony/mt6757-common/proprietary/lib/libtpm.so:system/lib/libtpm.so \
     vendor/sony/mt6757-common/proprietary/lib/libui_ext_fwk.so:system/lib/libui_ext_fwk.so \
     vendor/sony/mt6757-common/proprietary/lib/modules/ecryptfs.ko:system/lib/modules/ecryptfs.ko \
     vendor/sony/mt6757-common/proprietary/lib/modules/texfat.ko:system/lib/modules/texfat.ko \
@@ -150,7 +157,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mt6757-common/proprietary/lib64/libaal.so:system/lib64/libaal.so \
     vendor/sony/mt6757-common/proprietary/lib64/libaal_cust.so:system/lib64/libaal_cust.so \
     vendor/sony/mt6757-common/proprietary/lib64/libaalservice.so:system/lib64/libaalservice.so \
-    vendor/sony/mt6757-common/proprietary/lib64/libaaudio.so:system/lib64/libaaudio.so \
     vendor/sony/mt6757-common/proprietary/lib64/libaed.so:system/lib64/libaed.so \
     vendor/sony/mt6757-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/sony/mt6757-common/proprietary/lib64/libatciserv_jni.so:system/lib64/libatciserv_jni.so \
@@ -160,6 +166,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mt6757-common/proprietary/lib64/libcustom_prop.so:system/lib64/libcustom_prop.so \
     vendor/sony/mt6757-common/proprietary/lib64/libdatawasherjni_system.so:system/lib64/libdatawasherjni_system.so \
     vendor/sony/mt6757-common/proprietary/lib64/libdevice_security_client.so:system/lib64/libdevice_security_client.so \
+    vendor/sony/mt6757-common/proprietary/lib64/libem_audio_jni.so:system/lib64/libem_audio_jni.so \
+    vendor/sony/mt6757-common/proprietary/lib64/libem_bt_jni.so:system/lib64/libem_bt_jni.so \
+    vendor/sony/mt6757-common/proprietary/lib64/libem_lte_jni.so:system/lib64/libem_lte_jni.so \
+    vendor/sony/mt6757-common/proprietary/lib64/libem_sensor_jni.so:system/lib64/libem_sensor_jni.so \
+    vendor/sony/mt6757-common/proprietary/lib64/libem_support_jni.so:system/lib64/libem_support_jni.so \
+    vendor/sony/mt6757-common/proprietary/lib64/libem_usb_jni.so:system/lib64/libem_usb_jni.so \
+    vendor/sony/mt6757-common/proprietary/lib64/libem_wifi_jni.so:system/lib64/libem_wifi_jni.so \
     vendor/sony/mt6757-common/proprietary/lib64/libfmjni.so:system/lib64/libfmjni.so \
     vendor/sony/mt6757-common/proprietary/lib64/libfpc_oem.so:system/lib64/libfpc_oem.so \
     vendor/sony/mt6757-common/proprietary/lib64/libfpspolicy_fw.so:system/lib64/libfpspolicy_fw.so \
@@ -181,6 +194,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mt6757-common/proprietary/lib64/libnbaio.so:system/lib64/libnbaio.so \
     vendor/sony/mt6757-common/proprietary/lib64/libpq_cust.so:system/lib64/libpq_cust.so \
     vendor/sony/mt6757-common/proprietary/lib64/libprogrambinary.so:system/lib64/libprogrambinary.so \
+    vendor/sony/mt6757-common/proprietary/lib64/libterservice.so:system/lib64/libterservice.so \
+    vendor/sony/mt6757-common/proprietary/lib64/libtpm.so:system/lib64/libtpm.so \
     vendor/sony/mt6757-common/proprietary/lib64/libui_ext_fwk.so:system/lib64/libui_ext_fwk.so \
     vendor/sony/mt6757-common/proprietary/lib64/touchfilter/roadrunner_ukf.so:system/lib64/touchfilter/roadrunner_ukf.so \
     vendor/sony/mt6757-common/proprietary/lib64/touchfilter/tfsw.so:system/lib64/touchfilter/tfsw.so \
@@ -335,6 +350,174 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mt6757-common/proprietary/vendor/etc/api_auth_cacert:$(TARGET_COPY_OUT_VENDOR)/etc/api_auth_cacert \
     vendor/sony/mt6757-common/proprietary/vendor/etc/api_auth_crl:$(TARGET_COPY_OUT_VENDOR)/etc/api_auth_crl \
     vendor/sony/mt6757-common/proprietary/vendor/etc/appwidget/3dwidgets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/appwidget/3dwidgets.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/HpImpedance_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/PlaybackACF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/PlaybackACF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/PlaybackDRC_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/PlaybackHCF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackHCF_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/PlaybackVolAna_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/PlaybackVolDigi_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/PlaybackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolUI_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/Playback_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/Playback_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamTreeView.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/Playback_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/RecordDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordDMNR_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/RecordDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordDMNR_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/RecordFIR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordFIR_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/RecordFIR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordFIR_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/RecordUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/RecordUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/RecordVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/RecordVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/RecordVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/RecordVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamTreeView.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechEchoRef_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechEchoRef_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechGeneral_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechMagiClarity_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechMagiClarity_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechNetwork_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechNetwork_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamTreeView.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/Speech_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/USBCall_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBCall_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/USBCall_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBCall_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/USBDevice_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBDevice_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/USBDevice_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBDevice_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPDMNR_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPGeneral_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPUI_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPUI_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIP_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIP_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamTreeView.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIP_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPv2DMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2DMNR_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPv2General_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPv2General_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPv2UI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2UI_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamTreeView.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VolumeGainMapUL_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/AudioParamOptions.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/BtInfo_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/BtInfo_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/HpImpedance_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/HpImpedance_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/HpImpedance_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/PlaybackACF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/PlaybackACF_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/PlaybackACF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/PlaybackACF_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/PlaybackDRC_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/PlaybackDRC_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/PlaybackDRC_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/PlaybackDRC_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/PlaybackHCF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/PlaybackHCF_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/PlaybackHCF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/PlaybackHCF_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/PlaybackVolAna_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/PlaybackVolAna_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/PlaybackVolAna_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/PlaybackVolAna_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/PlaybackVolDigi_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/PlaybackVolDigi_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/PlaybackVolDigi_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/PlaybackVolDigi_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/PlaybackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/PlaybackVolUI_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/PlaybackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/PlaybackVolUI_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/Playback_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/Playback_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/Playback_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/Playback_ParamTreeView.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/Playback_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/Playback_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/RecordDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/RecordDMNR_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/RecordDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/RecordDMNR_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/RecordFIR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/RecordFIR_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/RecordFIR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/RecordFIR_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/RecordUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/RecordUI_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/RecordUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/RecordUI_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/RecordVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/RecordVolUI_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/RecordVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/RecordVolUI_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/RecordVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/RecordVol_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/RecordVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/RecordVol_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/Record_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/Record_ParamTreeView.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/Record_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechDMNR_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechDMNR_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechEchoRef_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechEchoRef_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechEchoRef_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechEchoRef_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechGeneral_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechGeneral_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechMagiClarity_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechMagiClarity_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechMagiClarity_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechMagiClarity_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechNetwork_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechNetwork_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechNetwork_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechNetwork_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechUI_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechUI_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechVolUI_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechVolUI_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechVol_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/SpeechVol_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/Speech_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/Speech_ParamTreeView.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/Speech_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/Speech_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/USBCall_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/USBCall_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/USBCall_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/USBCall_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/USBDevice_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/USBDevice_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/USBDevice_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/USBDevice_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPDMNR_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPDMNR_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPGeneral_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPGeneral_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPUI_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPUI_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPVolUI_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPVolUI_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPVol_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPVol_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIP_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIP_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIP_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIP_ParamTreeView.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIP_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIP_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPv2DMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPv2DMNR_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPv2DMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPv2DMNR_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPv2General_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPv2General_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPv2General_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPv2General_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPv2UI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPv2UI_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPv2UI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPv2UI_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPv2_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPv2_ParamTreeView.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VoIPv2_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VolumeGainMapUL_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VolumeGainMapUL_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VolumeGainMapUL_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VolumeGainMapUL_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VolumeGainMap_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/VolumeGainMap_ParamUnitDesc.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/Volume_AudioParam.xml \
+    vendor/sony/mt6757-common/proprietary/vendor/etc/audio_param2/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param2/Volume_ParamUnitDesc.xml \
     vendor/sony/mt6757-common/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/sony/mt6757-common/proprietary/vendor/etc/aurisys_param/FV-SAM-MTK2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/FV-SAM-MTK2.dat \
     vendor/sony/mt6757-common/proprietary/vendor/etc/aurisys_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/Speech_AudioParam.xml \
