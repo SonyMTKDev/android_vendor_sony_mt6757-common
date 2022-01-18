@@ -1281,6 +1281,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mt6757-common/proprietary/vendor/lib/mtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/mtk-ril.so \
     vendor/sony/mt6757-common/proprietary/vendor/lib/mtk-rilproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/mtk-rilproxy.so \
     vendor/sony/mt6757-common/proprietary/vendor/lib/sensors.mtk-hinoki.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.mtk-hinoki.so \
+    vendor/sony/mt6757-common/proprietary/vendor/lib/sensors.mtk-redwood.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.mtk-redwood.so \
+    vendor/sony/mt6757-common/proprietary/vendor/lib/sensors.mtk-teak.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.mtk-teak.so \
     vendor/sony/mt6757-common/proprietary/vendor/lib/sensors.smd.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.smd.so \
     vendor/sony/mt6757-common/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing.so \
     vendor/sony/mt6757-common/proprietary/vendor/lib/vendor.mediatek.hardware.audio@2.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@2.1_vendor.so \
@@ -1589,6 +1591,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mt6757-common/proprietary/vendor/lib64/mtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtk-ril.so \
     vendor/sony/mt6757-common/proprietary/vendor/lib64/mtk-rilproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtk-rilproxy.so \
     vendor/sony/mt6757-common/proprietary/vendor/lib64/sensors.mtk-hinoki.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.mtk-hinoki.so \
+    vendor/sony/mt6757-common/proprietary/vendor/lib64/sensors.mtk-redwood.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.mtk-redwood.so \
+    vendor/sony/mt6757-common/proprietary/vendor/lib64/sensors.mtk-teak.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.mtk-teak.so \
     vendor/sony/mt6757-common/proprietary/vendor/lib64/sensors.smd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.smd.so \
     vendor/sony/mt6757-common/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so \
     vendor/sony/mt6757-common/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@2.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@2.1_vendor.so \
