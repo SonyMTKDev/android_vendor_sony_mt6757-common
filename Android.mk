@@ -1,4 +1,4 @@
-# Copyright (C) 2020-2021 The LineageOS Project
+# Copyright (C) 2020-2023 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -31,9 +31,119 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := ModemSwitcher
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/framework/ModemSwitcher.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := com.nxp.nfc
 LOCAL_MODULE_OWNER := sony
 LOCAL_SRC_FILES := proprietary/framework/com.nxp.nfc.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.sonyericsson.idd_impl
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/framework/com.sonyericsson.idd_impl.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.sonymobile.miscta_impl
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/framework/com.sonymobile.miscta_impl.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := mediatek-common
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/framework/mediatek-common.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := mediatek-framework
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/framework/mediatek-framework.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := mediatek-ims-common
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/framework/mediatek-ims-common.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := mediatek-packages-teleservice
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/framework/mediatek-packages-teleservice.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := mediatek-telecom-common
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/framework/mediatek-telecom-common.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := mediatek-telephony-base
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/framework/mediatek-telephony-base.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := mediatek-telephony-common
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/framework/mediatek-telephony-common.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := somc-ext-telephony
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/framework/somc-ext-telephony.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
