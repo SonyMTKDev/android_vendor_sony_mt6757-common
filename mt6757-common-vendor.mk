@@ -1616,4 +1616,5 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mt6757-common/proprietary/vendor/plugin/Signatures/mplugin_guard.xml:$(TARGET_COPY_OUT_VENDOR)/plugin/Signatures/mplugin_guard.xml
 
 PRODUCT_PACKAGES += \
+    libril \
     com.nxp.nfc

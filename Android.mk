@@ -16,7 +16,19 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),mt6757-common)
+ifneq ($(filter hinoki redwood teak,$(TARGET_DEVICE)),)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libril
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libril.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libril.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.nxp.nfc
